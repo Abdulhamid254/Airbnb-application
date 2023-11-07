@@ -1,10 +1,12 @@
+"use client"
 
+import Header from "@/components/Header"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="">
       
-      <h1>Lets Build AirBnB!!</h1>
-    </main>
+     <Header/>
+    </div>
   )
 }

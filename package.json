@@ -10,14 +10,17 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "date-fns": "^2.30.0",
     "next": "13.4.16",
-    "react": "^18",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "^18",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-date-range": "^1.4.8",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

@@ -11,12 +11,12 @@ export default async function Home() {
  
   const res = await fetch('https://www.jsonkeeper.com/b/4G1G');
   const data = await res.json();
-  console.log(data);
+  // console.log(data);
 
 
   const cards = await fetch('https://www.jsonkeeper.com/b/VHHT');
   const cardsData = await cards.json();
-  console.log(cardsData);
+  // console.log(cardsData);
   
 
 

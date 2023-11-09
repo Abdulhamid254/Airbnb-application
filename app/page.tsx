@@ -1,3 +1,4 @@
+"use-client"
 
 import Banner from "@/components/Banner"
 import Footer from "@/components/Footer";
@@ -9,12 +10,12 @@ import SmallCard from "@/components/SmallCard";
 
 export default async function Home() {
  
-  const res = await fetch('https://www.jsonkeeper.com/b/4G1G');
+  const res = await fetch('https://www.jsonkeeper.com/b/4G1G', { cache: 'force-cache'});
   const data = await res.json();
   // console.log(data);
 
 
-  const cards = await fetch('https://www.jsonkeeper.com/b/VHHT');
+  const cards = await fetch('https://www.jsonkeeper.com/b/VHHT', { cache: 'force-cache'});
   const cardsData = await cards.json();
   // console.log(cardsData);
   
